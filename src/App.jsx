@@ -2,7 +2,7 @@
 import './App.css'
 import Header from './components /header'
 import About from './components /about'
-import Contact from './components /Contact.jsX'
+import Contact from './components /Contact'
 import Projects from './components /Projects'
 
 
