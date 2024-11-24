@@ -10,7 +10,7 @@ function Contact() {
         <p className="mt-4 text-gray-800 font-semibold">Email: mdcomputer_dk@hotmail.com</p>
         <p className="mt-4 text-gray-800 font-semibold">Linkdin: </p>
         <p className="mt-4 text-gray-800 font-semibold">Mobile: +91-9464987827</p>
-        <p className="mt-4 text-gray-800 font-semibold">Location: Ludhiana, Punjab (141017)</p>
+        <p className="mt-4 text-gray-800 font-semibold">Address: Ludhiana, Punjab (141017)</p>
        
        
       </div>
