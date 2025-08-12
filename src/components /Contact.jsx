@@ -1,7 +1,7 @@
 // src/components/Contact.js
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Apple } from "lucide-react";
 
 function Contact() {
   return (
@@ -105,6 +105,29 @@ function Contact() {
             </p>
           </motion.div>
         </div>
+
+        {/* Footer Line */}
+        <motion.div
+          className="mt-12 flex items-center justify-center gap-2 text-slate-300 text-sm 
+                    backdrop-blur-lg bg-white/5 border border-white/10 
+                    rounded-2xl shadow-lg shadow-black/40 px-6 py-3"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+        >
+          <span className="text-center text-md leading-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
+            Design & Maintained by - {" "}
+            
+            <a
+              href="https://deepanshu2413.github.io/Deepanshu_protfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-300 text-md hover:underline hover:text-yellow-200 transition-colors"
+            >
+              Deepanshu Kumar
+            </a>
+          </span>
+        </motion.div>
       </div>
     </section>
   );

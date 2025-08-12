@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="bg-gradient-to-r from-slate-900 via-black to-slate-800 shadow-lg p-6">
+    <header className="bg-gradient-to-r from-slate-950 via-black to-slate-800 shadow-lg p-6">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
         <h1 className="text-4xl font-extrabold text-white tracking-wide drop-shadow-lg">
           Deepak Kumar

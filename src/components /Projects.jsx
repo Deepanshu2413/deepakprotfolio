@@ -160,7 +160,7 @@ function Projects() {
               aria-modal="true"
             >
               {/* Close Button */}
-              <button
+              {/* <button
                 type="button"
                 ref={closeBtnRef}
                 onClick={closeModal}
@@ -168,7 +168,7 @@ function Projects() {
                 aria-label="Close preview"
               >
                 <X className="w-5 h-5" />
-              </button>
+              </button> */}
 
               {/* Content */}
               {modalContent.type === "image" ? (
