@@ -116,9 +116,9 @@ function Contact() {
           transition={{ delay: 0.5 }}
         >
           <span className="text-center text-md leading-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
-            Design & Maintained by - {" "}
+            Designred & Maintain by - {" "}
             
-            <a
+            <a 
               href="https://deepanshu2413.github.io/Deepanshu_protfolio/"
               target="_blank"
               rel="noopener noreferrer"
